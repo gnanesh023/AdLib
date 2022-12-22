@@ -21,6 +21,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         Ads.initInterstitialAdmob()
         Ads.loadInterstitialAdmob("ca-app-pub-3940256099942544/1033173712",this)
+
+
         setContent {
             AdLibTheme {
                 // A surface container using the 'background' color from the theme
@@ -41,7 +43,7 @@ fun Greeting(name: String) {
        Ads.showIntersitialAdmob(LocalContext as Activity)
 
     })
-
+    BannerAdFb(bannerID = "asda", context = LocalContext.current )
     BannerAdmob(bannerID = "ca-app-pub-3940256099942544/6300978111", context = LocalContext.current)
 
 }

@@ -43,6 +43,8 @@ dependencies {
     implementation 'androidx.compose.material:material:1.3.1'
     implementation "androidx.compose.ui:ui:1.3.2"
     implementation 'com.google.android.gms:play-services-ads:21.4.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.12.0'
+
 
 
 }
@@ -55,7 +57,7 @@ afterEvaluate {
 
                 groupId = 'com.github.gnanesh023'
                 artifactId = 'adlib'
-                version = '1.0'
+                version = '1.1'
             }
         }
     }

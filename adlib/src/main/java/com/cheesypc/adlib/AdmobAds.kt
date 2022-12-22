@@ -77,15 +77,6 @@ object Ads {
 
 
 
-    private const val BANNER_1 = "ca-app-pub-2424786546539769/7922913040"
-    private const val INTERSTITIAL_1 = "ca-app-pub-2424786546539769/3847441825"
-
-
-
-    private const val TEST_BANNER_1 = "ca-app-pub-3940256099942544/6300978111"
-    private const val TEST_INTERSTITIAL_1 = "ca-app-pub-3940256099942544/1033173712"
-    private const val TEST_REWARD_1 = "ca-app-pub-3940256099942544/5224354917"
-
 
 
 
